@@ -1,9 +1,3 @@
-const fs = require("fs");
-// const path = require("path");
-const sharp = require("sharp");
-
-sharp.cache(false);
-
 function clamp(x, min, max) {
   return Math.min(max, Math.max(x, min));
 }
@@ -172,7 +166,7 @@ function renderFace({
   interpolation,
   maxWidth = Infinity,
 }) {
-  const faceWidth = Math.min(maxWidth, readData.width / 4);
+  const faceWidth = Math.floor(Math.min(maxWidth, readData.width / 4));
   const faceHeight = faceWidth;
 
   const cube = {};
@@ -214,8 +208,8 @@ function renderFace({
       const lat = Math.acos(cube.z / r);
 
       copyPixel(
-        (readData.width * lon) / Math.PI / 2 - 0.5,
-        (readData.height * lat) / Math.PI - 0.5,
+        (lon / (2 * Math.PI)) * readData.width,
+        (lat / Math.PI) * readData.height,
         to
       );
     }
@@ -224,40 +218,32 @@ function renderFace({
   return writeData;
 }
 
-async function main() {
-  const inputImage = await sharp("input/test-2.jpg")
-    .raw()
-    .toBuffer({ resolveWithObject: true });
-
-  const imageData = {
-    data: new Uint8ClampedArray(inputImage.data),
-    width: inputImage.info.width,
-    height: inputImage.info.height,
-  };
-
-  const currentTime =
-    new Date().toISOString().replace(/[:T]/g, "-").split(".")[0] +
-    "-" +
-    new Date().getMilliseconds().toString().padStart(3, "0");
-  const outputDir = `output/${currentTime}`;
-
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+function getImageNameFromImgPath(path) {
+  if (typeof path !== "string" || path.trim() === "") {
+    return null; // invalid input
   }
 
-  // Convert imageData back to image file
-  // const originalExtension = path.extname(inputImage.info.format);
-  await sharp(Buffer.from(imageData.data.buffer), {
-    raw: {
-      width: imageData.width,
-      height: imageData.height,
-      channels: 4
-    }
-  })
-  .raw()
-  .resize({ width: 2048, height: 1024, fit: 'inside' })
-  .toFormat('jpeg', { quality: 80 })
-  .toFile(`${outputDir}/original.jpg`);
+  // Normalize slashes (support Windows \ and Unix /)
+  const normalizedPath = path.replace(/\\/g, "/");
+
+  // Extract file name
+  const parts = normalizedPath.split("/");
+  return parts.pop() || null;
 }
 
-main().catch(console.error);
+const getCurTimeString = () => {
+  const currentTime =
+    new Date().toISOString().replace(/[:T]/g, "").split(".")[0] +
+    "-" +
+    new Date().getMilliseconds().toString().padStart(3, "0");
+
+  return currentTime;
+};
+
+module.exports = {
+  INTERPOLATION_METHOD,
+  renderFace,
+  getImageNameFromImgPath,
+  getCurTimeString
+};
+
