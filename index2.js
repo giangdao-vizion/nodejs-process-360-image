@@ -261,9 +261,6 @@ async function main() {
 
   // const sides = ["px", "nx", "py", "ny", "pz", "nz"];
 
-
-  
-
   // for (const face of sides) {
   //   const result = renderFace({
   //     data: imageData,
