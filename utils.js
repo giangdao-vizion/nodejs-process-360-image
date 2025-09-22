@@ -164,9 +164,10 @@ function renderFace({
   face,
   rotation,
   interpolation,
+  outputWidth = 0,
   maxWidth = Infinity,
 }) {
-  const faceWidth = Math.floor(Math.min(maxWidth, readData.width / 4));
+  const faceWidth = Math.floor(Math.min(maxWidth, (outputWidth || readData.width / 4)));
   const faceHeight = faceWidth;
 
   const cube = {};
