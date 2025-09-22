@@ -1,269 +1,64 @@
 const fs = require("fs");
-const { createCanvas, loadImage, ImageData } = require("canvas");
+const sharp = require("sharp");
+const { INTERPOLATION_METHOD, getImageNameFromImgPath, getCurTimeString, renderFace } = require('./utils');
 
-function clamp(x, min, max) {
-  return Math.min(max, Math.max(x, min));
-}
+sharp.cache(false);
 
-function mod(x, n) {
-  return ((x % n) + n) % n;
-}
+async function processImg(inputImagePath, imgW = 0, imgH = 0) {
+  const inputImage = await sharp(inputImagePath)
+    .raw()
+    .ensureAlpha() // force 4 channels (RGBA), consistent indexing
+    .toBuffer({ resolveWithObject: true });
 
-function copyPixelNearest(read, write) {
-  const { width, height, data } = read;
-  const readIndex = (x, y) => 4 * (y * width + x);
-
-  return (xFrom, yFrom, to) => {
-    const nearest = readIndex(
-      clamp(Math.round(xFrom), 0, width - 1),
-      clamp(Math.round(yFrom), 0, height - 1)
-    );
-
-    for (let channel = 0; channel < 3; channel++) {
-      write.data[to + channel] = data[nearest + channel];
-    }
-  };
-}
-
-function copyPixelBilinear(read, write) {
-  const { width, height, data } = read;
-  const readIndex = (x, y) => 4 * (y * width + x);
-
-  return (xFrom, yFrom, to) => {
-    const xl = clamp(Math.floor(xFrom), 0, width - 1);
-    const xr = clamp(Math.ceil(xFrom), 0, width - 1);
-    const xf = xFrom - xl;
-
-    const yl = clamp(Math.floor(yFrom), 0, height - 1);
-    const yr = clamp(Math.ceil(yFrom), 0, height - 1);
-    const yf = yFrom - yl;
-
-    const p00 = readIndex(xl, yl);
-    const p10 = readIndex(xr, yl);
-    const p01 = readIndex(xl, yr);
-    const p11 = readIndex(xr, yr);
-
-    for (let channel = 0; channel < 3; channel++) {
-      const p0 = data[p00 + channel] * (1 - xf) + data[p10 + channel] * xf;
-      const p1 = data[p01 + channel] * (1 - xf) + data[p11 + channel] * xf;
-      write.data[to + channel] = Math.ceil(p0 * (1 - yf) + p1 * yf);
-    }
-  };
-}
-
-function kernelResample(read, write, filterSize, kernel) {
-  const { width, height, data } = read;
-  const readIndex = (x, y) => 4 * (y * width + x);
-
-  const twoFilterSize = 2 * filterSize;
-  const xMax = width - 1;
-  const yMax = height - 1;
-  const xKernel = new Array(4);
-  const yKernel = new Array(4);
-
-  return (xFrom, yFrom, to) => {
-    const xl = Math.floor(xFrom);
-    const yl = Math.floor(yFrom);
-    const xStart = xl - filterSize + 1;
-    const yStart = yl - filterSize + 1;
-
-    for (let i = 0; i < twoFilterSize; i++) {
-      xKernel[i] = kernel(xFrom - (xStart + i));
-      yKernel[i] = kernel(yFrom - (yStart + i));
-    }
-
-    for (let channel = 0; channel < 3; channel++) {
-      let q = 0;
-
-      for (let i = 0; i < twoFilterSize; i++) {
-        const y = yStart + i;
-        const yClamped = clamp(y, 0, yMax);
-        let p = 0;
-        for (let j = 0; j < twoFilterSize; j++) {
-          const x = xStart + j;
-          const index = readIndex(clamp(x, 0, xMax), yClamped);
-          p += data[index + channel] * xKernel[j];
-        }
-        q += p * yKernel[i];
-      }
-
-      write.data[to + channel] = Math.round(q);
-    }
-  };
-}
-
-function copyPixelBicubic(read, write) {
-  const b = -0.5;
-  const kernel = (x) => {
-    x = Math.abs(x);
-    const x2 = x * x;
-    const x3 = x * x * x;
-    return x <= 1
-      ? (b + 2) * x3 - (b + 3) * x2 + 1
-      : b * x3 - 5 * b * x2 + 8 * b * x - 4 * b;
+  const imageData = {
+    data: new Uint8ClampedArray(inputImage.data),
+    width: inputImage.info.width,
+    height: inputImage.info.height,
+    channels: inputImage.info.channels,  // <= track this!
   };
 
-  return kernelResample(read, write, 2, kernel);
-}
+  console.log('imageData.channels', imageData.channels);
 
-function copyPixelLanczos(read, write) {
-  const filterSize = 5;
-  const kernel = (x) => {
-    if (x === 0) {
-      return 1;
-    } else {
-      const xp = Math.PI * x;
-      return (
-        (filterSize * Math.sin(xp) * Math.sin(xp / filterSize)) / (xp * xp)
-      );
-    }
-  };
+  const imgName = getImageNameFromImgPath(inputImagePath);
 
-  return kernelResample(read, write, filterSize, kernel);
-}
-
-const orientations = {
-  pz: (out, x, y) => {
-    out.x = -1;
-    out.y = -x;
-    out.z = -y;
-  },
-  nz: (out, x, y) => {
-    out.x = 1;
-    out.y = x;
-    out.z = -y;
-  },
-  px: (out, x, y) => {
-    out.x = x;
-    out.y = -1;
-    out.z = -y;
-  },
-  nx: (out, x, y) => {
-    out.x = -x;
-    out.y = 1;
-    out.z = -y;
-  },
-  py: (out, x, y) => {
-    out.x = -y;
-    out.y = -x;
-    out.z = 1;
-  },
-  ny: (out, x, y) => {
-    out.x = y;
-    out.y = -x;
-    out.z = -1;
-  },
-};
-
-const INTERPOLATION_METHOD = {
-  NEAREST: "nearest",
-  BILINEAR: "bilinear",
-  BICUBIC: "bicubic",
-  LANCZOS: "lanczos",
-};
-
-function renderFace({
-  data: readData,
-  face,
-  rotation,
-  interpolation,
-  maxWidth = Infinity,
-}) {
-  const faceWidth = Math.min(maxWidth, readData.width / 4);
-  const faceHeight = faceWidth;
-
-  const cube = {};
-  const orientation = orientations[face];
-
-  const writeData = {
-    width: faceWidth,
-    height: faceHeight,
-    data: new Uint8ClampedArray(faceWidth * faceHeight * 4),
-  };
-
-  const copyPixel =
-    interpolation === INTERPOLATION_METHOD.BILINEAR
-      ? copyPixelBilinear(readData, writeData)
-      : interpolation === INTERPOLATION_METHOD.BICUBIC
-      ? copyPixelBicubic(readData, writeData)
-      : interpolation === INTERPOLATION_METHOD.LANCZOS
-      ? copyPixelLanczos(readData, writeData)
-      : copyPixelNearest(readData, writeData);
-
-  for (let x = 0; x < faceWidth; x++) {
-    for (let y = 0; y < faceHeight; y++) {
-      const to = 4 * (y * faceWidth + x);
-
-      // fill alpha channel
-      writeData.data[to + 3] = 255;
-
-      // get position on cube face
-      // cube is centered at the origin with a side length of 2
-      orientation(
-        cube,
-        (2 * (x + 0.5)) / faceWidth - 1,
-        (2 * (y + 0.5)) / faceHeight - 1
-      );
-
-      // project cube face onto unit sphere by converting cartesian to spherical coordinates
-      const r = Math.sqrt(cube.x * cube.x + cube.y * cube.y + cube.z * cube.z);
-      const lon = mod(Math.atan2(cube.y, cube.x) + rotation, 2 * Math.PI);
-      const lat = Math.acos(cube.z / r);
-
-      copyPixel(
-        (readData.width * lon) / Math.PI / 2 - 0.5,
-        (readData.height * lat) / Math.PI - 0.5,
-        to
-      );
-    }
-  }
-
-  return writeData;
-}
-
-async function main() {
-  const image = await loadImage("input/test.jpg");
-  const canvas = createCanvas(image.width, image.height);
-  const ctx = canvas.getContext("2d");
-  ctx.drawImage(image, 0, 0, image.width, image.height);
-
-  const imageData = ctx.getImageData(0, 0, image.width, image.height);
-
-  const sides = ["px", "nx", "py", "ny", "pz", "nz"];
-
-  const currentTime =
-    new Date().toISOString().replace(/[:T]/g, "-").split(".")[0] +
-    "-" +
-    new Date().getMilliseconds().toString().padStart(3, "0");
-  const outputDir = `output/${currentTime}`;
+  const currentTime = getCurTimeString();
+  const outputDir = `output/${imgName}_${currentTime}`;
 
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
+
+  const sides = ["px", "nx", "py", "ny", "pz", "nz"];
 
   for (const face of sides) {
     const result = renderFace({
       data: imageData,
       face: face,
       rotation: 0,
-      interpolation: "lanczos",
-      maxWidth: 1024,
+      interpolation: INTERPOLATION_METHOD.BILINEAR,
+      maxWidth: 8192,
     });
 
-    const resultCanvas = createCanvas(result.width, result.height);
-    const resultCtx = resultCanvas.getContext("2d");
-    resultCtx.putImageData(
-      new ImageData(result.data, result.width, result.height),
-      0,
-      0
-    );
+    await sharp(Buffer.from(result.data), {
+      raw: {
+        width: result.width,
+        height: result.height,
+        channels: imageData.channels,
+      },
+    })
+    .removeAlpha()
+      .jpeg({
+        quality: 100,              // highest quality
+        chromaSubsampling: '4:4:4', // keep sharp colors
+        progressive: true,          // better loading (optional)
+        mozjpeg: true               // use mozjpeg if available
+      })
+      .toFile(`${outputDir}/${face}.jpeg`);
 
-    const out = fs.createWriteStream(`${outputDir}/${face}.png`);
-    const stream = resultCanvas.createPNGStream();
-    stream.pipe(out);
-    out.on("finish", () =>
-      console.log(`The PNG file for ${face} was created.`)
-    );
+    console.log(`The output file for ${face} was created.`);
   }
+
+  console.log(`PROCESS COMPLETED !`);
 }
-main().catch(console.error);
+
+processImg("input/51m.jpg").catch(console.error);
