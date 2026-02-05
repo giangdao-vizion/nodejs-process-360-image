@@ -108,7 +108,7 @@ const processMany = async () => {
   for (const file of files) {
     console.log("Processing:", file);
     const iName = getImageNameFromImgPath(file);
-    await processImg(file, [OUTPUT_SIZE[1024], OUTPUT_SIZE[2048]], `output/${currentTime}/${iName}`); // wait until done before moving on
+    await processImg(file, [OUTPUT_SIZE[1024]], `output/${currentTime}/${iName}`); // wait until done before moving on
     console.log("Done:", file);
   }
   console.log("All files processed.");
