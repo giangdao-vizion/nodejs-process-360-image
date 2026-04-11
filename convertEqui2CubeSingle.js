@@ -25,6 +25,10 @@ const OUTPUT_SIZE = {
     width: 2048,
     quality: 90,
   },
+  3000: {
+    width: 3000,
+    quality: 90,
+  },
   4096: {
     width: 4096,
     quality: 90,
@@ -89,29 +93,15 @@ async function processImg(inputImagePath, outputConfigs = [OUTPUT_SIZE[1024]], o
 }
 
 
-const inputFile = "input/51m.jpg";
+const inputFile = "input/convert-360/day2/out-15.jpg";
 const imgName = getImageNameFromImgPath(inputFile);
 const currentTime = getCurTimeString();
-const outputDir = `output/${imgName}_${currentTime}`;
+const outputDir = `input/convert-360/day2/${imgName}_${currentTime}`;
 
 // Process 1 file
-// processImg(
-//   inputFile,
-//   [OUTPUT_SIZE[1024], OUTPUT_SIZE[2048], OUTPUT_SIZE[4096]],
-//   outputDir
-// ).catch(console.error);
+processImg(
+  inputFile,
+  [OUTPUT_SIZE[3000]],
+  outputDir
+).catch(console.error);
 
-// process many files
-const processMany = async () => {
-  const files = getAllFileFromFolder("input/convert-360", ["jpg", "jpeg"]);
-  console.log("Found files:", files);
-  for (const file of files) {
-    console.log("Processing:", file);
-    const iName = getImageNameFromImgPath(file);
-    await processImg(file, [OUTPUT_SIZE[4096]], `output/${currentTime}/${iName}`); // wait until done before moving on
-    console.log("Done:", file);
-  }
-  console.log("All files processed.");
-};
-
-processMany();

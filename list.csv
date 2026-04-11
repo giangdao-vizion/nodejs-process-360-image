@@ -1,0 +1,154 @@
+Category,Platform,Description,Industry,URL
+AI 3D Generation,Meshy AI,Web-based AI generator producing 3D models from text and images,Content Creation,https://meshy.ai
+AI 3D Generation,Luma AI,AI photogrammetry & NeRF platform for capturing photoreal 3D environments,Content Creation,https://lumalabs.ai
+AI 3D Generation,Sloyd,Procedural AI platform that generates 3D assets and models,Game Design/VR,https://www.sloyd.ai
+AI 3D Generation,Kaedim,Converts 2D concept art into 3D models for games and media,Gaming,https://kaedim3d.com
+AI 3D Generation,Masterpiece Studio,Collaborative VR/PC modeling tool with AI enhancements,Creative Design,https://masterpiecestudio.com
+AI 3D Generation,Tripo AI,Fast AI 3D model generator (text-to-model) with real-time speed,Prototyping,https://www.tripo3d.ai
+AI 3D Generation,3DFY.ai,Automated AI platform for generating and optimizing 3D assets,Enterprise,https://3dfy.ai
+AI 3D Generation,Scenario (vibe3D),Cloud AI service generating 3D assets and scenes,Game Design,https://scenario.com
+AI 3D Generation,LeiaPix,Transforms 2D images into 3D depth-processed photos,Media/Print,https://convert.leiapix.com
+AI 3D Generation,Ponzu AI,Generative AI for texture maps and material creation,Design/Architecture,https://ponzu.ai
+AI 3D Generation,Spaitial,AI-driven platform creating 3D virtual environments from text,Entertainment,https://www.spaitial.ai
+AI 3D Generation,Odyssey Systems,AI-powered tool converting text to full 3D scenes,Research & Entertainment,https://odyssey.systems
+AI 3D Generation,Decart AI,Generative AI creating open-world game environments,Game Development,https://www.decart.ai
+AI 3D Generation,World Engine,Text-to-3D environment generator (AI research startup),Entertainment,https://worldlabs.io
+AI 3D Generation,3D-Agent,Blender AI plugin that creates production-quality 3D models,Design/Animation,https://3d-agent.com
+AI 3D Generation,Rodin AI (Hyper3D),High-fidelity text-to-3D model generator (excellent topology),Animation/CG,https://hyper3d.ai
+AI 3D Generation,ARitize3D (Nextech),AI 3D product model generation for e-commerce,Retail/Ecommerce,https://nextechar.com
+AI 3D Generation,Kinetix AI,AI platform converting 2D videos into 3D character animations,Media,https://www.kinetix.tech
+AI 3D Generation,Poly.cam,Mobile app combining photogrammetry & AI cleanup for 3D scans,Spatial Capture,https://poly.cam
+AI 3D Generation,Luma Genie,Text-to-3D model generator by Luma AI (called “Genie”),Content Creation,https://lumalabs.ai/genie
+
+Immersive Commerce,Obsess,Platform for creating immersive 3D/VR retail stores,Retail/Brand,https://obsessvr.com
+Immersive Commerce,Emperia,Virtual shopping experiences for luxury and fashion brands,Fashion Retail,https://emperia.io
+Immersive Commerce,ByondXR,3D shopping and virtual product showcase platform,Ecommerce,https://byondxr.com
+Immersive Commerce,Journee,Creates branded 3D worlds and immersive experiences,Ecommerce,https://journee.ai
+Immersive Commerce,VNTANA,3D asset management and AR commerce solutions,Ecommerce,https://www.vntana.com
+Immersive Commerce,Threekit,3D/AR product configurators for e-commerce,Retail,https://www.threekit.com
+Immersive Commerce,Zakeke,Live 3D/AR product customization and configurators,Ecommerce,https://www.zakeke.com
+Immersive Commerce,Cylindo,3D product visualization platform (focus: furniture),Retail,https://www.cylindo.com
+Immersive Commerce,Augment,Nextech AR tool for 3D product visualization,Retail,https://www.augment.com
+Immersive Commerce,Sayduck,AR/3D preview platform for online retail,Retail,https://sayduck.com
+Immersive Commerce,Expivi,3D product configurator and customization for online sales,Ecommerce,https://www.expivi.com
+Immersive Commerce,Vertebrae,AR commerce platform for interactive shopping,Retail,https://vertebrae.com
+Immersive Commerce,Poplar Studio,AR marketing & commerce solutions for brands,Marketing,https://poplar.studio
+Immersive Commerce,VusionGroup,Virtual store and retail visualization solutions,Retail,https://www.vusion.com
+Immersive Commerce,InContext Solutions,Virtual store simulation (ShopperMX) for CPG,Retail,https://incontextsolutions.com
+Immersive Commerce,ReadySet VR,VR-based retail planning and shopper research,Retail/CPG,https://readysetvr.com
+Immersive Commerce,Banuba,AI/AR avatar and virtual try-on solutions,Retail/Fashion,https://banuba.com
+Immersive Commerce,ShopX,Platform for creating interactive 3D shopping experiences,Ecommerce,https://shopx.co
+Immersive Commerce,Stageverse,Immersive virtual brand events and storefronts,Marketing,https://stageverse.com
+Immersive Commerce,BrandLab,Creates interactive 3D marketing and product demos,Marketing,https://brandlab.ai
+Immersive Commerce,VStore,Virtual storefront and retail experience builder,Retail,https://vstore.ai
+Immersive Commerce,Nextech AR Solutions,AR/VR solutions including ARitize3D for retail,Retail/AR,https://nextechar.com
+
+Spatial Computing Apps,Spline,Web-based 3D design and prototyping tool,Design,https://spline.design
+Spatial Computing Apps,Vectary,Browser 3D modeling and AR creation platform,Product Design,https://www.vectary.com
+Spatial Computing Apps,CoSpaces Edu,Educational platform to build VR/AR scenes,Education,https://cospaces.io
+Spatial Computing Apps,ShapesXR,Collaborative VR design and prototyping tool,Design/VR,https://www.shapesxr.com
+Spatial Computing Apps,Arkio,Collaborative architectural and spatial design app,Architecture,https://www.arkio.is
+Spatial Computing Apps,Gravity Sketch,VR 3D creation tool for product and transport design,Design,https://www.gravitysketch.com
+Spatial Computing Apps,Fologram,Mixed-reality app linking CAD to AR visualization,Architecture,https://fologram.com
+Spatial Computing Apps,SketchUp,Easy-to-use 3D modeling (Google/Trimble) for architecture,Design,https://www.sketchup.com
+Spatial Computing Apps,Clara.io,Cloud-based 3D modeling and rendering platform,Design,https://clara.io
+Spatial Computing Apps,SelfCAD,Online 3D CAD modeling software for all users,Design/Engineering,https://www.selfcad.com
+Spatial Computing Apps,JigSpace,Platform for creating 3D and AR presentations,Education,https://jig.space
+Spatial Computing Apps,Tinkercad,Beginner-friendly online 3D modeling by Autodesk,Education,https://www.tinkercad.com
+Spatial Computing Apps,Onshape,Cloud-native CAD/PLM system for product design,Engineering,https://www.onshape.com
+Spatial Computing Apps,uMake,3D sketching app for iPad/AR visualization,Design,https://umake.com
+Spatial Computing Apps,Shapr3D,Professional 3D CAD modeling on tablets,Engineering,https://www.shapr3d.com
+Spatial Computing Apps,Nomad Sculpt,Mobile sculpting and painting app,Design,https://nomadsculpt.com
+Spatial Computing Apps,Wonda VR,360° VR storytelling and e-learning authoring,Education,https://wonda-interactive.com
+
+Digital Twins,NVIDIA Omniverse,Platform for real-time industrial digital twins,Manufacturing,https://www.nvidia.com/en-us/omniverse
+Digital Twins,Autodesk Tandem,Digital twin platform for AEC (buildings/infrastructure),Architecture/Engineering,https://tandem.autodesk.com
+Digital Twins,Bentley iTwin,Cloud platform for infrastructure and civil project twins,Engineering,https://www.bentley.com
+Digital Twins,3DEXPERIENCE (Dassault),Unified PLM/virtual twin platform for manufacturing,Manufacturing,https://www.3ds.com
+Digital Twins,Azure Digital Twins,IoT twin platform modeling real-world environments,Enterprise/Smart Buildings,https://azure.microsoft.com
+Digital Twins,Cognite Data Fusion,Industrial data platform for digital twin solutions,Energy/Manufacturing,https://www.cognite.com
+Digital Twins,Esri CityEngine,Tool for generating 3D city models and urban twins,Urban Planning,https://www.esri.com
+Digital Twins,SimScale,Cloud-based engineering simulation for digital twins,Engineering,https://www.simscale.com
+Digital Twins,Matterport,3D capture and virtual twin of real spaces,Real Estate,https://matterport.com
+Digital Twins,Twinmotion,Real-time 3D visualization for architecture (Unreal),Architecture,https://www.twinmotion.com
+Digital Twins,ThingWorx (PTC),IoT and digital twin development platform,Manufacturing,https://www.ptc.com
+Digital Twins,GE Predix,Industrial IoT and digital twin platform (energy focus),Energy,https://www.ge.com/vernova/software
+Digital Twins,IBM Maximo,AI-powered asset management with digital twin features,Enterprise,https://www.ibm.com
+Digital Twins,Siemens Xcelerator,Integrated industrial software portfolio with digital twins,Manufacturing,https://www.plm.automation.siemens.com
+Digital Twins,NavVis IVION,Spatial twin platform for indoor facility management,Construction,https://navvis.com
+Digital Twins,Unity Reflect,Real-time BIM to AR/VR integration platform,Architecture,https://unity.com/products/reflect
+Digital Twins,AVEVA PI System,Industrial data infrastructure for digital twins,Manufacturing,https://www.aveva.com
+Digital Twins,Re’Flekt,AR platform for contextual industrial digital twin experiences,Energy/Manufacturing,https://re-flekt.com
+Digital Twins,CITYZENITH (Gaia),Smart city digital twin platform,Urban Planning,https://cityzenith.com
+Digital Twins,AVEVA Unified Operations,Operations management with situational twin,Utilities,https://www.aveva.com
+Digital Twins,Trimble Quadri,BIM collaboration platform with twin data,Architecture,https://geospatial.trimble.com
+
+Simulation Platforms,AnyLogic,Multi-method simulation for logistics, supply chains,Business,https://www.anylogic.com
+Simulation Platforms,Simio,3D simulation for manufacturing and healthcare,Operations,https://simio.com
+Simulation Platforms,FlexSim,3D process simulation and plant modeling,Manufacturing,https://www.flexsim.com
+Simulation Platforms,Arena (Rockwell),Discrete-event simulation tool for processes,Operations,https://www.rockwellautomation.com
+Simulation Platforms,Simul8,Business process simulation and optimization,Operations,https://www.simul8.com
+Simulation Platforms,ANSYS Twin Builder,Simulation-driven digital twin creation,Engineering,https://www.ansys.com
+Simulation Platforms,COMSOL Multiphysics,Physics-based multiphysics simulation,Engineering,https://www.comsol.com
+Simulation Platforms,OpenFOAM,Open-source computational fluid dynamics suite,Engineering,https://openfoam.org
+Simulation Platforms,LS-DYNA,Explicit finite element analysis (crash/safety),Engineering,https://www.lstc.com
+Simulation Platforms,Star-CCM+,Multiphysics CFD and simulation (Siemens),Engineering,https://www.cd-adapco.com
+Simulation Platforms,Autodesk CFD,Computational fluid dynamics software,Engineering,https://www.autodesk.com
+Simulation Platforms,Abaqus (SIMULIA),Advanced finite element analysis software,Engineering,https://www.3ds.com/products-services/simulia
+Simulation Platforms,Simcenter (Siemens),Comprehensive simulation suite (NX Simcenter),Engineering,https://www.plm.automation.siemens.com
+Simulation Platforms,RoboDK,Offline programming & simulation of industrial robots,Robotics,https://robodk.com
+Simulation Platforms,CoppeliaSim (V-REP),Flexible robot simulator with plugin API,Robotics,https://www.coppeliarobotics.com
+Simulation Platforms,OpenModelica,Open-source modeling & simulation environment,Engineering,https://openmodelica.org
+Simulation Platforms,MATLAB/Simulink,Mathematical modeling and simulation environment,Engineering,https://www.mathworks.com
+Simulation Platforms,SCOPUS Simulator,Traffic and mobility simulation (e.g., for smart cities),Transportation,N/A
+Simulation Platforms,Gazebo,Robot simulation for autonomous systems,Robotics,https://gazebosim.org
+Simulation Platforms,Webots,Open-source mobile robot simulation,Robotics,https://cyberbotics.com
+Simulation Platforms,Flow-3D,Computational fluid dynamics software,Engineering,https://www.flow3d.com
+
+Virtual Production,Disguise,Real-time media server and visualization for live events,Entertainment,https://disguise.one
+Virtual Production,Aximmetry,Real-time 3D compositing software for broadcast,Broadcast,https://www.aximmetry.com
+Virtual Production,Stage Precision,VR/AR production system for cinemas and broadcast,Entertainment,https://stageprecision.com
+Virtual Production,Pixotope,Cloud-based AR graphics platform for TV/Broadcast,Broadcast,https://pixotope.com
+Virtual Production,Zero Density,Real-time virtual studio and augmented graphics,Media,https://zerodensity.io
+Virtual Production,Brainstorm InfinitySet,Broadcast AR studio graphics system,Broadcast,https://brainstorm3d.com
+Virtual Production,Notch,Real-time motion graphics & VFX engine,Live Events,https://notch.one
+Virtual Production,Mo-Sys Camera Tracker,Precision camera tracking for virtual studios,Film,https://mo-sys.com
+Virtual Production,Ncam,Camera tracking system for augmented reality production,Film,https://ncam-tech.com
+Virtual Production,ARwall,XR studio and virtual production services provider,Entertainment,https://arwall.co
+Virtual Production,BlackTrax,Real-time motion-tracking system for live events,Entertainment,https://blacktrax.ca
+Virtual Production,NeuralPoint (Unreal VP),AI-driven virtual production tools,Film/Gaming,https://neuralpoint.ai
+Virtual Production,Virtual Set Works,Virtual set and IP pipeline solutions,Broadcast,https://virtualsetworks.com
+Virtual Production,AceLights,Modular LED stage and VR studio hardware,Film/TV,https://acelights.com
+Virtual Production,Disguise XR Manager,Software for controlling LED wall content,Entertainment,https://disguise.one
+
+Training & Education,CoSpaces Edu,VR/AR creation and learning platform for schools,Education,https://cospaces.io
+Training & Education,VictoryXR,Turnkey VR/AR labs and curricula for education,Education,https://victoryxr.com
+Training & Education,Labster,Virtual science lab simulations for STEM education,Education,https://www.labster.com
+Training & Education,Engage XR,Collaborative VR training and events platform,Education,https://engagevr.io
+Training & Education,Bodyswaps,VR soft-skill training simulations,Corporate Training,https://bodyswaps.co
+Training & Education,Virti,VR/AR training simulations for healthcare and enterprise,Healthcare,https://virti.com
+Training & Education,Talespin,Enterprise XR workforce training and VR coaching,Enterprise L&D,https://talespin.com
+Training & Education,Strivr,VR training platform for enterprise workforce training,Enterprise L&D,https://strivr.com
+Training & Education,OssoVR,Immersive surgical training in VR,Healthcare,https://ossovr.com
+Training & Education,Mursion,Virtual role-play training (human-AI hybrid),Corporate Training,https://mursion.com
+Training & Education,SkillsVR,AI-powered VR learning & development platform,Corporate Training,https://skillsvr.com
+Training & Education,Attensi,AI/gamified VR training for corporate learning,Corporate Training,https://attensi.com
+Training & Education,PIXO VR,Enterprise VR training content and XR platform,Enterprise Training,https://www.pixovr.com
+Training & Education,360 Immersive,VR microlearning and simulation training,Corporate Training,https://360immersive.com
+Training & Education,UbiSim,VR simulation training for nursing and healthcare,Healthcare Education,https://ubisimvr.com
+Training & Education,Embodied Labs,VR training for empathy (eldercare, disability),Healthcare,https://embodiedlabs.com
+Training & Education,Nanome,Collaborative VR platform for scientific education,STEM Education,https://nanome.ai
+Training & Education,Prisms VR,STEM education VR platform for science learning,Education,https://www.prismsvr.com
+Training & Education,Squint,VR industrial training (safety, skills) platform,Manufacturing,https://squintvr.com
+Training & Education,IrisVR,VR collaboration tools for architecture & construction,AEC,https://www.thewild.com
+Training & Education,FrontRow VR,AI-driven VR educational platform and content,Education,https://frontrowvr.com
+Training & Education,Ludenso,AR/VR authoring for K-12 education,Education,https://www.ludenso.com
+Training & Education,iXRLabs,Immersive VR lab environments for higher-ed,Education,https://ixrlabs.com
+Training & Education,SAVR,Cloud VR platform for safety training and simulations,Enterprise Training,https://savrvpl.com
+Training & Education,360iDev,VR education and developer community event,Education,https://360idev.org
+Training & Education,OpenSim,Open-source multiuser 3D environment (education/enterprise),Education,https://opensimulator.org
+Training & Education,XR Health,VR therapeutics and training (ex-VR Health),Healthcare,https://xr.health
+Training & Education,Frontot,AI/VR platform for therapist training,Healthcare,https://frontot.com
+Training & Education,SkillSphere,AI-driven VR training simulations,Enterprise,https://skillsphere.com
+Training & Education,Lilypads VR,VR training platform for compliance & soft skills,Corporate Training,https://lilypadsvr.com
+Training & Education,Spacetale,Educational VR astronomy experiences,Education,https://spacetale.com
