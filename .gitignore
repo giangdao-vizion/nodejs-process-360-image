@@ -5,3 +5,4 @@ output
 input
 venv
 img-360/*
+python/__pycache__

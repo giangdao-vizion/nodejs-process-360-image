@@ -1,0 +1,2851 @@
+{
+    "tour": {
+        "id": "69d70b701e5e741f99c0e0ca",
+        "name": "TL66",
+        "accessCode": "tl66-27698c22",
+        "isDeleted": false,
+        "active": true,
+        "customerId": "624bb6155495071290332972",
+        "uid": "",
+        "tagline": "",
+        "googleAnalyticTrackingId": "",
+        "facebookPixelId": "",
+        "location": "",
+        "logoUrl": null,
+        "menuHighlightColor": "#F73D3C",
+        "lightboxBgColor1": "black",
+        "lightboxBgColor2": "black",
+        "lightboxBgColor3": "black",
+        "lightboxHeaderColor": "#FFFFFF",
+        "lightboxBlur": true,
+        "autorotate": true,
+        "autorotateSpeed": 1,
+        "enableGyroscope": true,
+        "defaultViewingAngle": 60,
+        "sceneRatio": 2,
+        "jsonUrl": "",
+        "mapCoordinates": [
+            0,
+            0,
+            10
+        ],
+        "mapLightIntensity": 0.5,
+        "mapLightColor": "white",
+        "isModified": true,
+        "originalId": "",
+        "bodyText": "",
+        "lightboxBodyTextColor": "#FFFFFF",
+        "calloutHeaderColor": "#000000",
+        "calloutSubHeaderColor": "#FFFFFF",
+        "mapBoxAccessToken": "",
+        "mapBoxStyle": "mapbox/satellite-streets-v12",
+        "introImageUrl": null,
+        "introVideoUrl": null,
+        "loadingImageUrl": "",
+        "email": "",
+        "websiteUrl": "",
+        "facebookUrl": "",
+        "instagramUrl": "",
+        "twitterUrl": "",
+        "snapchatUrl": "",
+        "youtubeUrl": "",
+        "pinterestUrl": "",
+        "linkedinUrl": "",
+        "isPublic": false,
+        "createdBy": "",
+        "tripodMarkerUrl": null,
+        "passcode": "",
+        "allowedIp": "",
+        "hotspotStyle": "square",
+        "menuStyle": "prime",
+        "createdAt": "2026-04-09T02:14:08.240Z",
+        "updatedAt": "2026-04-21T06:52:00.386Z",
+        "v": 0,
+        "logoURL": null,
+        "autoRotate": true,
+        "autoRotateSpeed": 1
+    },
+    "customer": {
+        "id": "624bb6155495071290332972",
+        "updatedAt": "2023-08-24T06:50:04.325Z",
+        "isDeleted": false,
+        "deletedAt": "2023-01-04T09:20:16.726Z",
+        "userIdDeleted": "",
+        "uid": null,
+        "companyName": "DEMO TOUR VIZION",
+        "email": "test-update@gmail.com",
+        "companyTagline": null,
+        "companyDescription": null,
+        "notes": null,
+        "friendlyName": "DEMO-TOUR-VIZION",
+        "logoUrl": null,
+        "brandColor1": null,
+        "brandColor2": null,
+        "websiteUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": null,
+        "twitterUrl": null,
+        "snapchatUrl": null,
+        "youtubeUrl": null,
+        "pinterestUrl": null,
+        "countryCode": null,
+        "phoneNumber": null,
+        "companySize": null,
+        "subscriptionStatus": 1,
+        "status": 1,
+        "createdAt": "2022-04-05T03:23:01.000Z"
+    },
+    "scenes": [
+        {
+            "id": "69d70c1d1e5e741f99c0e1f2",
+            "title": "WC",
+            "friendlyName": "wc-861746fd",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                -9.369244483908055,
+                -3.0621544649634654e-14,
+                500
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/f80b7427-a83c-4c21-81d3-9eae9fea040b.jpg",
+            "tourGroupId": "69d70bf41e5e741f99c0e187",
+            "hotspots": [
+                {
+                    "id": "69d7108c1e5e741f99c0e9b6",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -18.108380056383613,
+                        -87.76895359753598,
+                        -500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1e1e5e741f99c0e200",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671fa",
+                    "distance": "0",
+                    "location": [
+                        -18.108380056383613,
+                        -87.76895359753598,
+                        -500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1e1e5e741f99c0e200",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69d85dba1e5e741f99c19e50",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69d85dba1e5e741f99c19e50.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69d85dba1e5e741f99c19e50.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69d85dba1e5e741f99c19e50.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69d85dba1e5e741f99c19e50.webp"
+            }
+        },
+        {
+            "id": "69d70c1b1e5e741f99c0e1e6",
+            "title": "Phòng khách",
+            "friendlyName": "phong-khach-ecd75c78",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                -0.12129480878268928,
+                0.0000045345033277669784,
+                -9.999264351408147
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/63ed55b3-99ae-4791-b0a8-f5120a636cad.jpeg",
+            "tourGroupId": "69d70bf41e5e741f99c0e187",
+            "hotspots": [
+                {
+                    "id": "69d710ac1e5e741f99c0ea12",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -499.99999999999994,
+                        -109.69995965297835,
+                        -226.44116106419415
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1e1e5e741f99c0e200",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671fc",
+                    "distance": "0",
+                    "location": [
+                        -499.99999999999994,
+                        -109.69995965297835,
+                        -226.44116106419415
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1e1e5e741f99c0e200",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ecc71e5e741f99c57891",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ecc71e5e741f99c57891.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ecc71e5e741f99c57891.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ecc71e5e741f99c57891.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ecc71e5e741f99c57891.webp"
+            }
+        },
+        {
+            "id": "69d70c1e1e5e741f99c0e200",
+            "title": "Bếp",
+            "friendlyName": "bep-056c6d47",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": true,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                499.99999999999994,
+                -3.0655144631945865e-14,
+                25.237066568232617
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/474a74ea-a1a4-4376-b370-de0e0f3e6cf1.jpg",
+            "tourGroupId": "69d70bf41e5e741f99c0e187",
+            "hotspots": [
+                {
+                    "id": "69d710591e5e741f99c0e8f9",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        44.31900088586768,
+                        -216.56023870939262,
+                        768.478092222847
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1d1e5e741f99c0e1f2",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d710591e5e741f99c0e8fa",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        500,
+                        -119.21833499801163,
+                        255.7117139764732
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1b1e5e741f99c0e1e6",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d710591e5e741f99c0e8fb",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        203.0466591496986,
+                        -132.52060146987696,
+                        761.9219523094828
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c201e5e741f99c0e20e",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671f7",
+                    "distance": "0",
+                    "location": [
+                        44.31900088586768,
+                        -216.56023870939262,
+                        768.478092222847
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1d1e5e741f99c0e1f2",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671f8",
+                    "distance": "0",
+                    "location": [
+                        500,
+                        -119.21833499801163,
+                        255.7117139764732
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1b1e5e741f99c0e1e6",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671f9",
+                    "distance": "0",
+                    "location": [
+                        203.0466591496986,
+                        -132.52060146987696,
+                        761.9219523094828
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c201e5e741f99c0e20e",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e599621e5e741f99c6919b",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-px/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-nx/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-py/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-ny/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-pz/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-nz/69e599621e5e741f99c6919b.webp"
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e599621e5e741f99c6919b.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e599621e5e741f99c6919b.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e599621e5e741f99c6919b.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-4096/69e599621e5e741f99c6919b.webp",
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e599621e5e741f99c6919b.webp"
+            }
+        },
+        {
+            "id": "69d70c201e5e741f99c0e20e",
+            "title": "Phòng ngủ",
+            "friendlyName": "phong-ngu-96cf8d2c",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                -500.00000000000006,
+                -0.0010514379659533207,
+                26.176599600695067
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/5748bb38-3ed1-41ad-be7c-42c011ac20e7.jpg",
+            "tourGroupId": "69d70bf41e5e741f99c0e187",
+            "hotspots": [
+                {
+                    "id": "69d710991e5e741f99c0e9d6",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -499.99999999999994,
+                        -30.263345484158883,
+                        -103.55964634452944
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1e1e5e741f99c0e200",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671fb",
+                    "distance": "0",
+                    "location": [
+                        -499.99999999999994,
+                        -30.263345484158883,
+                        -103.55964634452944
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70c1e1e5e741f99c0e200",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69d85d4c1e5e741f99c19da7",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69d85d4c1e5e741f99c19da7.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69d85d4c1e5e741f99c19da7.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69d85d4c1e5e741f99c19da7.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69d85d4c1e5e741f99c19da7.webp"
+            }
+        },
+        {
+            "id": "69d70cb31e5e741f99c0e366",
+            "title": "Phòng ngủ 01",
+            "friendlyName": "phong-ngu-01-69c8ebbc",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                0.1283799999440152,
+                -6.123233995736766e-16,
+                9.999175894823251
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/d87ec5a9-5b35-4892-9817-5e7b7b968ae7.jpeg",
+            "tourGroupId": "69d70bfd1e5e741f99c0e191",
+            "hotspots": [
+                {
+                    "id": "69d712771e5e741f99c0eca4",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        203.15890660568996,
+                        -114.62027008688264,
+                        -499.99999999999994
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671fe",
+                    "distance": "0",
+                    "location": [
+                        203.15890660568996,
+                        -114.62027008688264,
+                        -499.99999999999994
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69d85e8e1e5e741f99c19fb4",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69d85e8e1e5e741f99c19fb4.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69d85e8e1e5e741f99c19fb4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69d85e8e1e5e741f99c19fb4.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69d85e8e1e5e741f99c19fb4.webp"
+            }
+        },
+        {
+            "id": "69d70cb11e5e741f99c0e35a",
+            "title": "Phòng Master",
+            "friendlyName": "phong-master-a1b40e42",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                -1.4742666795005845,
+                -0.000017675274724088824,
+                500
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/33979060-002b-493a-9b07-744583ccbbbc.jpg",
+            "tourGroupId": "69d70bfd1e5e741f99c0e191",
+            "hotspots": [
+                {
+                    "id": "69d712581e5e741f99c0ec5c",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -99.5006132681693,
+                        90.24276071446923
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671fd",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -99.5006132681693,
+                        90.24276071446923
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ed051e5e741f99c578db",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ed051e5e741f99c578db.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ed051e5e741f99c578db.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ed051e5e741f99c578db.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ed051e5e741f99c578db.webp"
+            }
+        },
+        {
+            "id": "69d70d831e5e741f99c0e41b",
+            "title": "Bàn ăn",
+            "friendlyName": "ban-an-cf4881e6",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                -9.999719572996673,
+                0.000006362593713502652,
+                0.07488966141413671
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/0655b845-d832-4ca6-ae3f-2062dcb8ef51.jpeg",
+            "tourGroupId": "69d70bfd1e5e741f99c0e191",
+            "hotspots": [
+                {
+                    "id": "69d713001e5e741f99c0edd5",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -208.85000858228426,
+                        -310.9481713199372,
+                        -500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d841e5e741f99c0e429",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d713001e5e741f99c0edd6",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -13.316917009132606,
+                        -426.8549163166341,
+                        500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d811e5e741f99c0e40d",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d713001e5e741f99c0edd7",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        500,
+                        45.120485105913644,
+                        -4.501206274459363
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70cb11e5e741f99c0e35a",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d713001e5e741f99c0edd8",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        499.99999999999994,
+                        -123.47564705696146,
+                        102.67541052458822
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70cb31e5e741f99c0e366",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d713001e5e741f99c0edd9",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        500,
+                        -143.62125957979626,
+                        -291.36078937989663
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70cb41e5e741f99c0e374",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867203",
+                    "distance": "0",
+                    "location": [
+                        -208.85000858228426,
+                        -310.9481713199372,
+                        -500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d841e5e741f99c0e429",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867204",
+                    "distance": "0",
+                    "location": [
+                        -13.316917009132606,
+                        -426.8549163166341,
+                        500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d811e5e741f99c0e40d",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867205",
+                    "distance": "0",
+                    "location": [
+                        500,
+                        45.120485105913644,
+                        -4.501206274459363
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70cb11e5e741f99c0e35a",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867206",
+                    "distance": "0",
+                    "location": [
+                        499.99999999999994,
+                        -123.47564705696146,
+                        102.67541052458822
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70cb31e5e741f99c0e366",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867207",
+                    "distance": "0",
+                    "location": [
+                        500,
+                        -143.62125957979626,
+                        -291.36078937989663
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70cb41e5e741f99c0e374",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ed531e5e741f99c5795f",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ed531e5e741f99c5795f.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ed531e5e741f99c5795f.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ed531e5e741f99c5795f.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ed531e5e741f99c5795f.webp"
+            }
+        },
+        {
+            "id": "69d70d841e5e741f99c0e429",
+            "title": "Bếp",
+            "friendlyName": "bep-c49f693e",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                -0.04515854901239226,
+                0.039789436615779966,
+                9.999818873668907
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/9fed3309-f04b-4461-a7ca-683b1b77a221.jpeg",
+            "tourGroupId": "69d70bfd1e5e741f99c0e191",
+            "hotspots": [
+                {
+                    "id": "69d712d01e5e741f99c0ed7f",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        194.21002973205765,
+                        -383.5173576627347,
+                        674.3285980282116
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867202",
+                    "distance": "0",
+                    "location": [
+                        194.21002973205765,
+                        -383.5173576627347,
+                        674.3285980282116
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ed791e5e741f99c57a05",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ed791e5e741f99c57a05.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ed791e5e741f99c57a05.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ed791e5e741f99c57a05.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ed791e5e741f99c57a05.webp"
+            }
+        },
+        {
+            "id": "69d70ddc1e5e741f99c0e4f0",
+            "title": "Bàn ăn",
+            "friendlyName": "ban-an-e999450e",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                9.991481607024664,
+                0.38038945912921407,
+                -0.15999736207581705
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/ee75537f-6a89-4e12-9d93-b0221796931a.jpeg",
+            "tourGroupId": "69d70c041e5e741f99c0e19e",
+            "hotspots": [
+                {
+                    "id": "69d717cd1e5e741f99c0f5f3",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        499.99999999999994,
+                        -292.75207895311013,
+                        101.41272235060792
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de71e5e741f99c0e5ed",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d717cd1e5e741f99c0f5f4",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -260.3470362937114,
+                        -20.421188953613054
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70dde1e5e741f99c0e502",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d717cd1e5e741f99c0f5f6",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        0.4739765549614445,
+                        21.558020124022967,
+                        499.99999999999994
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de01e5e741f99c0e518",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d717cd1e5e741f99c0f5f7",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        55.975281930266306,
+                        -120.31253158109948,
+                        500.00000000000006
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de31e5e741f99c0e5c1",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d8a0a71e5e741f99c1ffaa",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -47.07830746222924,
+                        -73.80460728374312,
+                        500.00000000000006
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de51e5e741f99c0e5ce",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867209",
+                    "distance": "0",
+                    "location": [
+                        499.99999999999994,
+                        -292.75207895311013,
+                        101.41272235060792
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de71e5e741f99c0e5ed",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f851886720a",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -260.3470362937114,
+                        -20.421188953613054
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70dde1e5e741f99c0e502",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f851886720b",
+                    "distance": "0",
+                    "location": [
+                        0.4739765549614445,
+                        21.558020124022967,
+                        499.99999999999994
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de01e5e741f99c0e518",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f851886720c",
+                    "distance": "0",
+                    "location": [
+                        55.975281930266306,
+                        -120.31253158109948,
+                        500.00000000000006
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de31e5e741f99c0e5c1",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867213",
+                    "distance": "0",
+                    "location": [
+                        -47.07830746222924,
+                        -73.80460728374312,
+                        500.00000000000006
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de51e5e741f99c0e5ce",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ee2b1e5e741f99c57bbd",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ee2b1e5e741f99c57bbd.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ee2b1e5e741f99c57bbd.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ee2b1e5e741f99c57bbd.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ee2b1e5e741f99c57bbd.webp"
+            }
+        },
+        {
+            "id": "69d70de01e5e741f99c0e518",
+            "title": "Phòng ngủ 01",
+            "friendlyName": "phong-ngu-01-75d5cc62",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                0.12364157549572209,
+                -8.582636303752032e-12,
+                9.999235608825753
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/30ee535c-4f09-465c-9f62-7da306bc5a94.jpeg",
+            "tourGroupId": "69d70c041e5e741f99c0e19e",
+            "hotspots": [
+                {
+                    "id": "69d718121e5e741f99c0f692",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -66.11862029020493,
+                        -145.49261383512766
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867210",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -66.11862029020493,
+                        -145.49261383512766
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69d85f211e5e741f99c1a097",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69d85f211e5e741f99c1a097.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69d85f211e5e741f99c1a097.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69d85f211e5e741f99c1a097.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69d85f211e5e741f99c1a097.webp"
+            }
+        },
+        {
+            "id": "69d70cb41e5e741f99c0e374",
+            "title": "WC",
+            "friendlyName": "wc-fa8436da",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                500,
+                -3.061630307173395e-14,
+                1.474306339517411
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/babdf46a-d2ab-4b81-81d3-4e517dc5e463.jpg",
+            "tourGroupId": "69d70bfd1e5e741f99c0e191",
+            "hotspots": [
+                {
+                    "id": "69d712891e5e741f99c0ece2",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -124.96356842392363,
+                        266.7769088224168
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f85188671ff",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -124.96356842392363,
+                        266.7769088224168
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69d85e4f1e5e741f99c19f52",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69d85e4f1e5e741f99c19f52.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69d85e4f1e5e741f99c19f52.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69d85e4f1e5e741f99c19f52.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69d85e4f1e5e741f99c19f52.webp"
+            }
+        },
+        {
+            "id": "69d70dde1e5e741f99c0e502",
+            "title": "Bếp",
+            "friendlyName": "bep-df6c5bdb",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                9.999145990526362,
+                0.07474575118117327,
+                -0.10720323139220717
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/d8bc16fe-e9d5-4a65-9401-7dee0a208c50.jpeg",
+            "tourGroupId": "69d70c041e5e741f99c0e19e",
+            "hotspots": [
+                {
+                    "id": "69d7159f1e5e741f99c0f197",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        499.99999999999994,
+                        -281.41040142806685,
+                        69.0828422148774
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867208",
+                    "distance": "0",
+                    "location": [
+                        499.99999999999994,
+                        -281.41040142806685,
+                        69.0828422148774
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ee0b1e5e741f99c57b8e",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ee0b1e5e741f99c57b8e.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ee0b1e5e741f99c57b8e.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ee0b1e5e741f99c57b8e.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ee0b1e5e741f99c57b8e.webp"
+            }
+        },
+        {
+            "id": "69d70de11e5e741f99c0e52a",
+            "title": "WC",
+            "friendlyName": "wc-a06b117a",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                0.12838200000721822,
+                -6.123233995736766e-16,
+                9.999175869144123
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/6af7d633-9ee4-4975-89d6-61a0d5b11a76.jpeg",
+            "tourGroupId": "69d70c041e5e741f99c0e19e",
+            "hotspots": [
+                {
+                    "id": "69d717e61e5e741f99c0f625",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        500,
+                        -69.77720826324102,
+                        -44.0264154630435
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de51e5e741f99c0e5ce",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f851886720d",
+                    "distance": "0",
+                    "location": [
+                        500,
+                        -69.77720826324102,
+                        -44.0264154630435
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de51e5e741f99c0e5ce",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69d85ebc1e5e741f99c19ffa",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69d85ebc1e5e741f99c19ffa.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69d85ebc1e5e741f99c19ffa.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69d85ebc1e5e741f99c19ffa.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69d85ebc1e5e741f99c19ffa.webp"
+            }
+        },
+        {
+            "id": "69d70d811e5e741f99c0e40d",
+            "title": "Phòng khách",
+            "friendlyName": "phong-khach-47477b81",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                -9.999608100621222,
+                -1.540435141128914e-7,
+                0.0885315423472603
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/9094e85a-65bd-41e6-ad41-c44d466653ab.jpeg",
+            "tourGroupId": "69d70bfd1e5e741f99c0e191",
+            "hotspots": [
+                {
+                    "id": "69d712bf1e5e741f99c0ed50",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        136.9693435119588,
+                        -418.23066649721346,
+                        -500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d712bf1e5e741f99c0ed51",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -46.00612255159165,
+                        -181.74167001287088,
+                        -500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d841e5e741f99c0e429",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867200",
+                    "distance": "0",
+                    "location": [
+                        136.9693435119588,
+                        -418.23066649721346,
+                        -500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d831e5e741f99c0e41b",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867201",
+                    "distance": "0",
+                    "location": [
+                        -46.00612255159165,
+                        -181.74167001287088,
+                        -500
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70d841e5e741f99c0e429",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ed3f1e5e741f99c57939",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ed3f1e5e741f99c57939.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ed3f1e5e741f99c57939.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ed3f1e5e741f99c57939.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ed3f1e5e741f99c57939.webp"
+            }
+        },
+        {
+            "id": "69d70de51e5e741f99c0e5ce",
+            "title": "Phòng Master",
+            "friendlyName": "phong-master-0bcaf036",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                0.18886847758195635,
+                8.316363691786156e-10,
+                -9.998216275825197
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/3979c1d9-9326-4523-8596-ff614f3223bc.jpeg",
+            "tourGroupId": "69d70c041e5e741f99c0e19e",
+            "hotspots": [
+                {
+                    "id": "69d718021e5e741f99c0f64d",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -55.9861254026388,
+                        -47.799708361137206,
+                        -500.00000000000006
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de11e5e741f99c0e52a",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69d718021e5e741f99c0f64e",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        171.5559972281505,
+                        -50.22121614448467,
+                        -500.0000000000001
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f851886720e",
+                    "distance": "0",
+                    "location": [
+                        -55.9861254026388,
+                        -47.799708361137206,
+                        -500.00000000000006
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70de11e5e741f99c0e52a",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f851886720f",
+                    "distance": "0",
+                    "location": [
+                        171.5559972281505,
+                        -50.22121614448467,
+                        -500.0000000000001
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ee741e5e741f99c57c23",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ee741e5e741f99c57c23.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ee741e5e741f99c57c23.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ee741e5e741f99c57c23.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ee741e5e741f99c57c23.webp"
+            }
+        },
+        {
+            "id": "69d70de71e5e741f99c0e5ed",
+            "title": "Phòng khách",
+            "friendlyName": "phong-khach-38bef272",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                -9.999228020774956,
+                -0.00025275352063570863,
+                0.12425346942690667
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/6958aab3-5e8d-4418-9a33-298d5acf3f23.jpeg",
+            "tourGroupId": "69d70c041e5e741f99c0e19e",
+            "hotspots": [
+                {
+                    "id": "69d71b851e5e741f99c10260",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -499.99999999999994,
+                        -241.97735377751692,
+                        32.037220461241866
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867211",
+                    "distance": "0",
+                    "location": [
+                        -499.99999999999994,
+                        -241.97735377751692,
+                        32.037220461241866
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69e1ee511e5e741f99c57bf4",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-px/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-nx/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-py/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-ny/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-pz/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/4096-nz/69e1ee511e5e741f99c57bf4.webp"
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69e1ee511e5e741f99c57bf4.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69e1ee511e5e741f99c57bf4.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69e1ee511e5e741f99c57bf4.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-4096/69e1ee511e5e741f99c57bf4.webp",
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69e1ee511e5e741f99c57bf4.webp"
+            }
+        },
+        {
+            "id": "69d70de31e5e741f99c0e5c1",
+            "title": "Phòng Studio",
+            "friendlyName": "phong-studio-0ab76bc9",
+            "type": "Ground",
+            "panoType": "Image360",
+            "isDefault": false,
+            "location": "",
+            "viewingAngle": null,
+            "defaultOrientation": [
+                9.999526862950747,
+                2.367070371343109e-9,
+                -0.09727547032208177
+            ],
+            "coordinates": [
+                0,
+                0,
+                0
+            ],
+            "lensFlareLocation": [],
+            "noLensFlare": true,
+            "showOnMap": false,
+            "yaw": 0,
+            "pitch": 0,
+            "roll": 0,
+            "elevation": null,
+            "previewImgUrl": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/thumb/04bfe01f-7dd1-473e-af45-56b62991c0aa.jpeg",
+            "tourGroupId": "69d70c041e5e741f99c0e19e",
+            "hotspots": [
+                {
+                    "id": "69d71bce1e5e741f99c10400",
+                    "type": "Scene",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -45.59223208547779,
+                        19.810632981634548
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                },
+                {
+                    "id": "69e71ad553f50f8518867212",
+                    "distance": "0",
+                    "location": [
+                        -500,
+                        -45.59223208547779,
+                        19.810632981634548
+                    ],
+                    "mediaLinkId": null,
+                    "tourLinkedId": "69d70b701e5e741f99c0e0ca",
+                    "sceneLinkId": "69d70ddc1e5e741f99c0e4f0",
+                    "sceneVariantId": null,
+                    "icon": null,
+                    "iconUrl": null,
+                    "iconActiveUrl": null,
+                    "polygon": [],
+                    "configs": ""
+                }
+            ],
+            "mediaLogoOverride": null,
+            "variantTitle": null,
+            "variantOrder": 0,
+            "sceneVariants": null,
+            "sourceImgId": "69d85ed01e5e741f99c1a021",
+            "steps": [],
+            "configuration": "",
+            "cubeMapImages": {
+                "size4096": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "size2048": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-px/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nx/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-py/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-ny/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-pz/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/2048-nz/69d85ed01e5e741f99c1a021.webp"
+                ],
+                "size1024": [
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-px/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nx/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-py/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-ny/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-pz/69d85ed01e5e741f99c1a021.webp",
+                    "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/1024-nz/69d85ed01e5e741f99c1a021.webp"
+                ],
+                "size512": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            "sphericalImages": {
+                "resize4096": null,
+                "resize2048": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/eq-2048/69d85ed01e5e741f99c1a021.webp"
+            }
+        }
+    ],
+    "featured": [],
+    "media": [
+        {
+            "id": "69d70efa1e5e741f99c0e6ea",
+            "friendlyName": "1pn-529f6020",
+            "imageUrl": null,
+            "readMoreUrl": null,
+            "text": null,
+            "title": "1PN",
+            "type": "MapFloorPlan",
+            "youtubeId": null,
+            "soundUrl": null,
+            "customData": null,
+            "infoTag": null,
+            "fileUrl": "",
+            "configs": [],
+            "gallery": [],
+            "matterport": null,
+            "google360": null,
+            "mapFloorPlan": [
+                {
+                    "image": {
+                        "url": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/media/b2372f84-0d49-417d-bfae-cb6587475304.undefined",
+                        "name": "1PN-B"
+                    },
+                    "objects": [
+                        {
+                            "id": "69d70c1b1e5e741f99c0e1e6",
+                            "coordinates": [
+                                0.33170370108897085,
+                                0.5620052770448549
+                            ]
+                        },
+                        {
+                            "id": "69d70c1d1e5e741f99c0e1f2",
+                            "coordinates": [
+                                0.7394765174111791,
+                                0.25857519788918204
+                            ]
+                        },
+                        {
+                            "id": "69d70c201e5e741f99c0e20e",
+                            "coordinates": [
+                                0.2108402901569036,
+                                0.39050131926121373
+                            ]
+                        },
+                        {
+                            "id": "69d70c1e1e5e741f99c0e200",
+                            "coordinates": [
+                                0.7711043258793837,
+                                0.7348284960422163
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "69d70f0e1e5e741f99c0e710",
+            "friendlyName": "2pn-c8904300",
+            "imageUrl": null,
+            "readMoreUrl": null,
+            "text": null,
+            "title": "2PN",
+            "type": "MapFloorPlan",
+            "youtubeId": null,
+            "soundUrl": null,
+            "customData": null,
+            "infoTag": null,
+            "fileUrl": "",
+            "configs": [],
+            "gallery": [],
+            "matterport": null,
+            "google360": null,
+            "mapFloorPlan": [
+                {
+                    "image": {
+                        "url": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/media/7d1644ec-ecaa-418c-841e-b26b4881614e.undefined",
+                        "name": "2PN-B"
+                    },
+                    "objects": [
+                        {
+                            "id": "69d70cb11e5e741f99c0e35a",
+                            "coordinates": [
+                                0.236986301369863,
+                                0.558047493403694
+                            ]
+                        },
+                        {
+                            "id": "69d70cb31e5e741f99c0e366",
+                            "coordinates": [
+                                0.428478731074261,
+                                0.3390501319261214
+                            ]
+                        },
+                        {
+                            "id": "69d70cb41e5e741f99c0e374",
+                            "coordinates": [
+                                0.45150342603788796,
+                                0.6615566037735849
+                            ]
+                        },
+                        {
+                            "id": "69d70d811e5e741f99c0e40d",
+                            "coordinates": [
+                                0.6702539298669891,
+                                0.33490566037735847
+                            ]
+                        },
+                        {
+                            "id": "69d70d831e5e741f99c0e41b",
+                            "coordinates": [
+                                0.6672712952576434,
+                                0.5841004868867886
+                            ]
+                        },
+                        {
+                            "id": "69d70d841e5e741f99c0e429",
+                            "coordinates": [
+                                0.7383555018137847,
+                                0.7665094339622641
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "69d70f231e5e741f99c0e721",
+            "friendlyName": "3pn-a8fd7645",
+            "imageUrl": null,
+            "readMoreUrl": null,
+            "text": null,
+            "title": "3PN",
+            "type": "MapFloorPlan",
+            "youtubeId": null,
+            "soundUrl": null,
+            "customData": null,
+            "infoTag": null,
+            "fileUrl": "",
+            "configs": [],
+            "gallery": [],
+            "matterport": null,
+            "google360": null,
+            "mapFloorPlan": [
+                {
+                    "image": {
+                        "url": "https://platform-resources-staging.s3.ap-southeast-1.amazonaws.com/media/603b1f21-d7ad-4342-8db9-971e3be6f419.undefined",
+                        "name": "3PN"
+                    },
+                    "objects": [
+                        {
+                            "id": "69d70de31e5e741f99c0e5c1",
+                            "coordinates": [
+                                0.45748882615005815,
+                                0.6757075471698113
+                            ]
+                        },
+                        {
+                            "id": "69d70de51e5e741f99c0e5ce",
+                            "coordinates": [
+                                0.15591897814120037,
+                                0.36588792057062586
+                            ]
+                        },
+                        {
+                            "id": "69d70de11e5e741f99c0e52a",
+                            "coordinates": [
+                                0.47207047034103766,
+                                0.2546174142480211
+                            ]
+                        },
+                        {
+                            "id": "69d70de01e5e741f99c0e518",
+                            "coordinates": [
+                                0.2610473573622111,
+                                0.6675461741424802
+                            ]
+                        },
+                        {
+                            "id": "69d70de71e5e741f99c0e5ed",
+                            "coordinates": [
+                                0.7141360696916252,
+                                0.6975710213711932
+                            ]
+                        },
+                        {
+                            "id": "69d70ddc1e5e741f99c0e4f0",
+                            "coordinates": [
+                                0.7141360696916252,
+                                0.50554396301297
+                            ]
+                        },
+                        {
+                            "id": "69d70dde1e5e741f99c0e502",
+                            "coordinates": [
+                                0.7100315322537545,
+                                0.26638299033045565
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "mediaGroups": [],
+    "menu": [
+        {
+            "name": "1PN",
+            "order": 0,
+            "scenes": [
+                {
+                    "id": "69d70c1e1e5e741f99c0e200",
+                    "title": "",
+                    "order": 0
+                },
+                {
+                    "id": "69d70c1b1e5e741f99c0e1e6",
+                    "title": "",
+                    "order": 1
+                },
+                {
+                    "id": "69d70c201e5e741f99c0e20e",
+                    "title": "",
+                    "order": 2
+                },
+                {
+                    "id": "69d70c1d1e5e741f99c0e1f2",
+                    "title": "",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "name": "2PN",
+            "order": 1,
+            "scenes": [
+                {
+                    "id": "69d70d841e5e741f99c0e429",
+                    "title": "",
+                    "order": 0
+                },
+                {
+                    "id": "69d70d831e5e741f99c0e41b",
+                    "title": "",
+                    "order": 1
+                },
+                {
+                    "id": "69d70d811e5e741f99c0e40d",
+                    "title": "",
+                    "order": 2
+                },
+                {
+                    "id": "69d70cb31e5e741f99c0e366",
+                    "title": "",
+                    "order": 3
+                },
+                {
+                    "id": "69d70cb11e5e741f99c0e35a",
+                    "title": "",
+                    "order": 4
+                },
+                {
+                    "id": "69d70cb41e5e741f99c0e374",
+                    "title": "",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "name": "3PN",
+            "order": 2,
+            "scenes": [
+                {
+                    "id": "69d70dde1e5e741f99c0e502",
+                    "title": "",
+                    "order": 0
+                },
+                {
+                    "id": "69d70ddc1e5e741f99c0e4f0",
+                    "title": "",
+                    "order": 1
+                },
+                {
+                    "id": "69d70de71e5e741f99c0e5ed",
+                    "title": "",
+                    "order": 2
+                },
+                {
+                    "id": "69d70de31e5e741f99c0e5c1",
+                    "title": "",
+                    "order": 3
+                },
+                {
+                    "id": "69d70de01e5e741f99c0e518",
+                    "title": "",
+                    "order": 4
+                },
+                {
+                    "id": "69d70de51e5e741f99c0e5ce",
+                    "title": "",
+                    "order": 5
+                },
+                {
+                    "id": "69d70de11e5e741f99c0e52a",
+                    "title": "",
+                    "order": 6
+                }
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "updatedAt": "2026-04-10T04:49:49.877Z",
+            "isDeleted": false,
+            "deletedAt": null,
+            "uid": "e8fe7593-4c4d-46f9-b8c0-8b017db20a6c",
+            "tourId": "69d70b701e5e741f99c0e0ca",
+            "title": "Welcome",
+            "friendlyName": "welcome",
+            "isDefault": true,
+            "location": "abc",
+            "position": 2,
+            "defaultSceneId": null,
+            "id": "69d70b701e5e741f99c0e0cc",
+            "createdAt": "2026-04-09T02:14:08.246Z",
+            "v": 0
+        },
+        {
+            "updatedAt": "2026-04-10T04:49:49.877Z",
+            "isDeleted": false,
+            "deletedAt": null,
+            "uid": "34261b10-e2c9-4a02-9b2e-cd3354e79f03",
+            "tourId": "69d70b701e5e741f99c0e0ca",
+            "title": "1PN",
+            "friendlyName": "1pn",
+            "isDefault": false,
+            "location": "abc",
+            "position": 0,
+            "defaultSceneId": null,
+            "id": "69d70bf41e5e741f99c0e187",
+            "createdAt": "2026-04-09T02:16:20.429Z",
+            "v": 0
+        },
+        {
+            "updatedAt": "2026-04-10T04:49:49.877Z",
+            "isDeleted": false,
+            "deletedAt": null,
+            "uid": "a575abdd-eeb5-4352-ba9e-b34c1513ebac",
+            "tourId": "69d70b701e5e741f99c0e0ca",
+            "title": "2PN",
+            "friendlyName": "2pn",
+            "isDefault": false,
+            "location": "abc",
+            "position": 1,
+            "defaultSceneId": null,
+            "id": "69d70bfd1e5e741f99c0e191",
+            "createdAt": "2026-04-09T02:16:29.076Z",
+            "v": 0
+        },
+        {
+            "updatedAt": "2026-04-10T04:49:49.877Z",
+            "isDeleted": false,
+            "deletedAt": null,
+            "uid": "396a90c2-e81f-471f-a353-c1a3888d4313",
+            "tourId": "69d70b701e5e741f99c0e0ca",
+            "title": "3PN",
+            "friendlyName": "3pn",
+            "isDefault": false,
+            "location": "abc",
+            "position": 3,
+            "defaultSceneId": null,
+            "id": "69d70c041e5e741f99c0e19e",
+            "createdAt": "2026-04-09T02:16:36.660Z",
+            "v": 0
+        }
+    ],
+    "autoPilot": {
+        "isDeleted": false,
+        "deletedAt": null,
+        "userIdDeleted": null,
+        "id": "69e71e921e5e741f99c75893",
+        "scenes": [],
+        "createdAt": "2026-04-21T06:52:02.000Z"
+    }
+}
